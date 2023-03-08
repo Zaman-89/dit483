@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <h1>Registration Page</h1>
+    <hr>
+
+    <form action="">
+        <label for="f-name">Enter your First Name</label> <br>
+        <input type="text" required name="f-name" placeholder="Rumi"> <br>
+        <label for="">Enter your Last Name</label> <br>
+        <input type="text" required name="l-name" placeholder="Zaman"> <br>
+        <label for="db">Date of Birth</label><br>
+        <input type="date" required/><br>
+
+        <!-- radio start -->
+        <label for="">Gender</label><br>
+        <input type="radio" name="gender" id="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="others">Others</label> <br>
+        <!-- radio end -->
+
+        <label for="mail">Enter your email</label> <br>
+        <input type="mail" required name="mail" placeholder="Rumi@email.com"> <br>
+
+        <label for="cmail">Confirm email</label> <br>
+        <input type="mail" required name="cmail" placeholder="Rumi@email.com"> <br>
+
+        <label for="pass">Enter your password</label> <br>
+        <input type="password" required name="pass" placeholder="$rumi123456"> <br>
+        <input type="submit" value="Register">
+    </form>
+
+    <p>Already have an account please <a href="../form.html">Login here</a></p>
+</body>
+</html>
